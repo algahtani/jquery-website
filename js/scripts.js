@@ -40,4 +40,13 @@ $(function() {
     $("ul#user").prepend("<li>Stop copying me!</li>");
     $("ul#webpage").prepend("<li>Pardon me. I meant no offense.</li>");
   });
+
+  $("div#click-one").click(function(event) {
+    var whatToSay = "Hello!";
+    alert(whatToSay);
+  });
+
+  $("div#click-two").click(function(event) {
+    alert(whatToSay);
+  });
 });
