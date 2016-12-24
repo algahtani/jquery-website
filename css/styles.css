@@ -22,3 +22,7 @@
 .red-background {
   background-color: red;
 }
+
+#story {
+  display: none;
+}
